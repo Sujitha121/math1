@@ -35,3 +35,7 @@ int main() {
 		drawTop(side);
     drawMiddle(side);
     drawBottom(side);
+    cout << "\nHexagon drawing completed successfully.\n";
+
+    return 0;
+}
