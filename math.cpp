@@ -32,3 +32,5 @@ int main() {
         return 1;
 	e < 2 || side > 20) {
         cout
+		drawTop(side);
+    drawMiddle(side);
