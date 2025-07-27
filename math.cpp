@@ -21,3 +21,6 @@ void drawBottom(int side) {
         cout << "/" << endl;
 	 }
 }
+int main() {
+    int side;
+    cout << "ASCII Hexagon Drawer (C++)\n";
