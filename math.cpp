@@ -13,3 +13,5 @@ void drawMiddle(int side) {
     for (int i = 0; i < side * 4; ++i) cout << "-:";
     cout << "\\" << endl;
 }
+void drawBottom(int side) {
+    for (int i = side - 1; i >= 0; --i) {
