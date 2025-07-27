@@ -6,3 +6,5 @@ void drawTop(int side) {
         cout << setw(side - i + 1) << "";
 	cout << "/";
         cout << setw(side * 2 + i * 2) << "";
+	 cout << "\\" << endl;
+    }
