@@ -15,3 +15,5 @@ void drawMiddle(int side) {
 }
 void drawBottom(int side) {
     for (int i = side - 1; i >= 0; --i) {
+	    cout << setw(side - i + 1) << "";
+        cout << "\\";
