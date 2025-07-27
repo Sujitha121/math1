@@ -19,3 +19,5 @@ void drawBottom(int side) {
         cout << "\\";
 	cout << setw(side * 2 + i * 2) << "";
         cout << "/" << endl;
+	 }
+}
