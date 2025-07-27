@@ -34,3 +34,4 @@ int main() {
         cout
 		drawTop(side);
     drawMiddle(side);
+    drawBottom(side);
