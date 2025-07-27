@@ -30,3 +30,5 @@ int main() {
     if (side < 2 || side > 20) {
         cout << "Please enter a valid number between 2 and 20.\n";
         return 1;
+	e < 2 || side > 20) {
+        cout
