@@ -27,3 +27,6 @@ int main() {
     cout << "--------------------------\n";
     cout << "Enter the length of one side (3–10 recommended): ";
     cin >> side;
+    if (side < 2 || side > 20) {
+        cout << "Please enter a valid number between 2 and 20.\n";
+        return 1;
