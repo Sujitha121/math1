@@ -24,3 +24,6 @@ void drawBottom(int side) {
 int main() {
     int side;
     cout << "ASCII Hexagon Drawer (C++)\n";
+    cout << "--------------------------\n";
+    cout << "Enter the length of one side (3–10 recommended): ";
+    cin >> side;
