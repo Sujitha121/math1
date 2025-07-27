@@ -9,3 +9,5 @@ void drawTop(int side) {
 	 cout << "\\" << endl;
     }
 void drawMiddle(int side) {
+	cout << "/";
+    for (int i = 0; i < side * 4; ++i) cout << "-:";
